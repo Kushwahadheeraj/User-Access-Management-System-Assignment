@@ -55,6 +55,7 @@ const Dashboard: React.FC = () => {
     };
 
     return (
+        <>
         <Container>
             <Box sx={{ mt: 4, mb: 4 }}>
                 <Box sx={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', mb: 3 }}>
@@ -110,6 +111,7 @@ const Dashboard: React.FC = () => {
                 </TableContainer>
             </Box>
         </Container>
+        </>
     );
 };
 

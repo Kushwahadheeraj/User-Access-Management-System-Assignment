@@ -31,6 +31,7 @@ const Register: React.FC = () => {
     };
 
     return (
+        <>
         <Container component="main" maxWidth="xs">
             <Box
                 sx={{
@@ -122,6 +123,7 @@ const Register: React.FC = () => {
                 </Paper>
             </Box>
         </Container>
+        </>
     );
 };
 
